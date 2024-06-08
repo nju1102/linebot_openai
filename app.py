@@ -25,8 +25,7 @@ static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 line_bot_api = LineBotApi(os.getenv('UStAIHIfWDHAFv5ZrrBFDPSPpnRiv/ipXJvkBjgnlDVlDeH0V/5APwoVo9OBmPlgLp12flIe3tTnJmY1q/fCGSg6rSKRG73hrTq4Uoqv6/4/SEasxRc/Om1FUQX92OVyqgzcA+prRHhttTG1IrNpFQdB04t89/1O/w1cDnyilFU='))
 # Channel Secret
 handler = WebhookHandler(os.getenv('8eb33bfd76d9fe0db1091bb61cac7eea'))
-# OPENAI API Key初始化設定
-#openai.api_key = os.getenv('OPENAI API Key')
+
 
 endpoint = os.getenv('END_POINT')
 credential = AzureKeyCredential(os.getenv('AZURE_KEY'))
