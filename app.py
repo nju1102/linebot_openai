@@ -22,7 +22,7 @@ from azure.ai.language.questionanswering import QuestionAnsweringClient
 app = Flask(__name__)
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 # Channel Access Token
-line_bot_api = LineBotApi(os.getenv('4RQJzYTr/liAbmy5txUaqSEOrN/CJwbrlHCPwYevdDxmdIxUsmFryCI8V4UprQ2xLp12flIe3tTnJmY1q/fCGSg6rSKRG73hrTq4Uoqv6/6kH2pO5OCLci8PT5qS9TwJHf8swxdwwAo408pH2icOjQdB04t89/1O/w1cDnyilFU='))
+line_bot_api = LineBotApi(os.getenv('UStAIHIfWDHAFv5ZrrBFDPSPpnRiv/ipXJvkBjgnlDVlDeH0V/5APwoVo9OBmPlgLp12flIe3tTnJmY1q/fCGSg6rSKRG73hrTq4Uoqv6/4/SEasxRc/Om1FUQX92OVyqgzcA+prRHhttTG1IrNpFQdB04t89/1O/w1cDnyilFU='))
 # Channel Secret
 handler = WebhookHandler(os.getenv('8eb33bfd76d9fe0db1091bb61cac7eea'))
 # OPENAI API Key初始化設定
